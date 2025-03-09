@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>CC Projetos</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-house" id="nav_logo"> CC Projetos</i> 
+            
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://wa.me/5519997959587">                
+                    Entre em contato
+                </a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#servicos">Serviços</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="https://wa.me/5519997959587">                
+                    Entre em contato
+                </a>
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+
+            </div>
+
+            <div id="cta">
+                <h1 class="title">
+                    Especialista em
+                    <span>Regularização de Imóvel</span>
+                </h1>
+
+                <p class="description">
+                    Sou Carlos César Costa, técnico em Edificações habilitado pel CRT/SP.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#services" class="btn-default">Ver serviços</a>
+                    <a href="https://wa.me/5519997959587" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (19) 9 9795-9587
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5519997959587">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/carloscesarcosta_/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="./assets/banner.JPG" alt="">
+            </div>
+        </section>
+
+        <section id="container_servicos">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">consulte aqui nossos serviços</h3>
+
+            <div id="services">
+                <div class="service">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/estudo.jpg" alt="" class="service-img">
+
+                    <h3 class="service-title">EVT</h3>
+
+                    <span class="service-description">
+                        O <strong>Estudo de Viabilidade Técnica</strong> avalia a possibilidade de regularização ou uso de um imóvel conforme normas legais e condições.                    
+                    </span>
+
+                    <div class="service-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="service-price">
+                        <h4>Consulte</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/aprovacao.jpg" alt="" class="service-img">
+
+                    <h3 class="service-title">Aprovação de Projeto</h3>
+
+                    <span class="service-description">
+                        A <strong>Aprovação de Projeto de Regularização</strong> na Prefeitura garante que o imóvel esteja conforme <strong>normas municipais</strong>, evitando problemas legais.                    
+                    </span>
+
+                    <div class="service-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="service-price">
+                        <h4>Consulte</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/habitese.jpg" alt="" class="service-img">
+
+                    <h3 class="service-title">Habite-se</h3>
+
+                    <span class="service-description">
+                        A emissão do <strong>Habite-se ou Certidão de Regularização</strong> conclui a legalização do imóvel, permitindo seu uso e ocupação.
+                    </span>
+
+                    <div class="service-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="service-price">
+                        <h4>Consulte</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/Loteamento.png" alt="" class="service-img">
+
+                    <h3 class="service-title">Desdobro</h3>
+
+                    <span class="service-description">
+                        O <strong>desdobro de lotes</strong> divide terrenos em parcelas menores, possibilitando vendas, construções ou regularização de imóveis.
+                    </span>
+
+                    <div class="service-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="service-price">
+                        <h4>Consulte</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./assets/projeto-simplificado-corpo-bombeiros-02.webp" alt="" class="service-img">
+
+                    <h3 class="service-title">Corpo de Bombeiros</h3>
+
+                    <span class="service-description">
+                        O <strong>Projeto do Corpo de Bombeiros</strong> assegura a conformidade com normas de segurança contra incêndios em edificações e estabelecimentos.                    </span>
+
+                    <div class="service-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="service-price">
+                        <h4>Consulte</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="testimonials">
+            <img src="./assets/chef.png" id="testimonial_img" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="./assets/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure molestiae tempore molestias iste, voluptas a sint, nostrum beatae fugit consequatur et incidunt qui debitis odit, itaque veniam ducimus eligendi assumenda."</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="./assets/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure molestiae tempore molestias iste, voluptas a sint, nostrum beatae fugit consequatur et incidunt qui debitis odit, itaque veniam ducimus eligendi assumenda."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./assets/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Mateus Costa
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://wa.me/5519997959587">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/carloscesarcosta_/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
