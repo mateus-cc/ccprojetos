@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,14 +16,14 @@
             <i class="fa-solid fa-house" id="nav_logo"> CC Projetos</i> 
             
             <ul id="nav_list">
-                <li class="nav_item active">
+                <li class="nav_item">
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav_item">
                     <a href="#services">Serviços</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#testimonials">Avaliações</a>
+                    <a href="#about">Sobre Mim</a>
                 </li>
             </ul>
 
@@ -244,7 +245,7 @@
 
         </section>
 
-        <section id="testimonials">
+        <!-- <section id="testimonials">
             <img src="./assets/chef.png" id="testimonial_img" alt="">
 
             <div id="testimonials_content">
@@ -291,6 +292,54 @@
                 <button class="btn-default">
                     Ver mais avaliações
                 </button>
+            </div>
+        </section> -->
+
+        <section id="container_about">
+            <div id="about">
+                <p class="about">
+                    Sou Carlos Cesar Costa, técnico em Edificações habilitado pelo CRT/SP e especialista em Regularização de Imóveis. Com mais de 40 anos de experiência, minha missão é descomplicar a regularização de imóveis, oferecendo um serviço de orientação clara e soluções eficientes para proprietários que buscam garantir a documentação correta junto aos órgãos públicos.
+                </p>
+                <p class="about">
+                    Com foco em facilitar o processo de legalização, trabalho para assegurar que cada imóvel esteja regularizado, valorizado e pronto para ser vendido ou incluído em inventários familiares. Acredito que um imóvel regularizado é sinônimo de segurança, tranquilidade e novas oportunidades para seus donos.
+                </p>
+                <p class="about">
+                    Meu compromisso é oferecer um atendimento personalizado e de excelência, tornando a regularização acessível para todos. Estou aqui para transformar esse processo, muitas vezes burocrático, em uma experiência simples e sem complicações, proporcionando paz de espírito aos meus clientes.
+                </p>
+            </div>
+
+            <img src="./assets/chef.png" id="about_img" alt="">
+        </section>
+
+        <section id="formulario_container">
+            <div id="contact">
+                <h2>Contatos</h2>
+                <a href="#">
+                    <i class="fa-solid fa-location-dot icone-form"></i>
+                    Araras - São Paulo
+                </a>
+                
+                <a href="https://wa.me/5519997959587">
+                    <i class="fa-brands fa-whatsapp icone-form"></i> (19) 9 9795-9587
+                </a>
+                <a href="https://www.instagram.com/carloscesarcosta_/">
+                    <i class="fa-brands fa-instagram icone-form"></i>
+                    carloscesarcosta_
+                </a>  
+                <a href="">
+                    <i class="fa-regular fa-envelope icone-form"></i>
+                    ccprojetos@uol.com
+                </a>  
+            </div>
+            <div id="form">
+                <h2>Fale conosco</h2>
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Telefone">
+                    <input type="text" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <button class="btn-default btn-form">Enviar</button>
+                </form>
             </div>
         </section>
     </main>
