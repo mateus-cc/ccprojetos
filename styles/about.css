@@ -7,8 +7,11 @@
 }
 
 #about_img {
-    width: 500px;
+    width: 400px;
     height: auto;
+    border-radius: 10%;
+    margin-bottom: 12%;
+    margin-left: 5%;
 }
 
 #about {
