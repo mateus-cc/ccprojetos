@@ -1,0 +1,20 @@
+.accordion {
+    background-color: #0088cc;
+    /* border: 1px solid #0088cc; */
+}
+
+#accordionFlushExample {
+    background-color: #0088cc;
+
+}
+
+.accordion-item {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+
+}
+
+.accordion-button, .collapsed {
+    background-color: #0088cc;
+
+}
