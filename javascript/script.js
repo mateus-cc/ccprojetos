@@ -1,3 +1,9 @@
+import { firebaseConfig } from './firebase-config.js';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+
+// Inicializa o Firebase
+const app = initializeApp(firebaseConfig);
+
 $(document).ready(function() {
     // Menu mobile
     $('#mobile_btn').on('click', function () {
